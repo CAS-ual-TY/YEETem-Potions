@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="MIT License"
+issueTrackerURL="https://github.com/CAS-ual-TY/YEETem-Potions/issues"
+
+[[mods]]
+    modId="yeetem_potions"
+    version="${file.jarVersion}"
+    displayName="YEETem Potions"
+    displayURL="https://github.com/CAS-ual-TY/YEETem-Potions"
+    logoFile="logo.png"
+    credits="Mojang and the Minecraft Forge Team."
+    authors="CAS_ual_TY"
+    description="Throw the potions, don't just drop them!"
