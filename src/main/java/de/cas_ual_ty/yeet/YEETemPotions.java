@@ -4,7 +4,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.entity.EntityJoinLevelEvent;
+import net.minecraftforge.event.entity.EntityJoinWorldEvent;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod(YEETemPotions.MODID)
@@ -17,7 +17,7 @@ public class YEETemPotions
         MinecraftForge.EVENT_BUS.addListener(this::yeet);
     }
     
-    private void yeet(EntityJoinLevelEvent event)
+    private void yeet(EntityJoinWorldEvent event)
     {
         if(event.getEntity() instanceof ThrownPotion potion && potion.getOwner() instanceof Player)
         {
